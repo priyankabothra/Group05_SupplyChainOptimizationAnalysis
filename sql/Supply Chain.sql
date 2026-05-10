@@ -8,7 +8,7 @@ RENAME COLUMN `Product type` TO product_type;
 SELECT SKU, Price, Product_type
 FROM supply_chain_dataset
 WHERE Product_type = 'skincare'
-AND Price > 10;
+AND Price > 50;
 
 # Find the top 10 most expensive products.
 SELECT SKU, Price
